@@ -39,3 +39,10 @@ body,
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .active-selected:hover{
+    
+    -webkit-box-shadow: 0px 6px 134px 17px rgba(177, 177, 177, 0.384) !important;
+    -moz-box-shadow: 0px 6px 134px 17px rgba(148, 151, 151, 0.43) !important;
+    box-shadow: 0px 6px 134px 17px rgba(147, 150, 149, 0.534) !important;
+  }
