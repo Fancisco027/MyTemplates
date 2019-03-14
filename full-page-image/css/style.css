@@ -19,3 +19,23 @@ body,
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #1C2331; }
+
+  .trasp{ 
+    background-color: rgba(138, 135, 135, 0.486);
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    }
+  .parallax {
+    /* The image used */
+    background-image: url("../img/olimpic.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
